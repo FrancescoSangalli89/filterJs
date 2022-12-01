@@ -25,30 +25,29 @@
         </div>
 
         <div id="filters-container" class="hidden">
-            <div class="filter">
-                Grayscale
-            </div>
-            <div class="filter">
-                Saturate
-            </div>
-            <div class="filter">
-                Sepia
-            </div>
-            <div class="filter">
-                Invert
-            </div>
-            <div class="filter">
-                Contrast
-            </div>
-            <div class="filter">
-                Brightness
-            </div>
-            <div class="filter">
-                Blur
-            </div>
-            <div class="filter">
-                Hue Rotate
-            </div>
+            <label>Grayscale</label>
+            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="grayscale" data-scale="%">
+            
+            <label>Saturate</label>
+            <input type="range" min="1" max="100" value="1" step="1" onchange="applyFilter()" data-filter="saturate" data-scale="">
+            
+            <label>Sepia</label>
+            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="sepia" data-scale="%">
+            
+            <label>Invert</label>
+            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="invert" data-scale="%">
+            
+            <label>Contrast</label>
+            <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="contrast" data-scale="%">
+            
+            <label>Brightness</label>
+            <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="brightness" data-scale="%">
+            
+            <label>Blur</label>
+            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="blur" data-scale="px">
+            
+            <label>Hue Rotate</label>
+            <input type="range" min="0" max="360" value="0" step="1" onchange="applyFilter()" data-filter="hue-rotate" data-scale="deg">
         </div>
 
     </main>
