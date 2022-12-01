@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-upload>label>img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.image-upload>img {
+    max-width: 500px;
+}
+
+#filters-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#filters-container>div {
+    margin: 0 50px 0 50px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
