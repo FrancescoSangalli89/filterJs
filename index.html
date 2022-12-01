@@ -25,29 +25,47 @@
         </div>
 
         <div id="filters-container" class="hidden">
-            <label>Grayscale</label>
-            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="grayscale" data-scale="%">
-            
-            <label>Saturate</label>
-            <input type="range" min="1" max="100" value="1" step="1" onchange="applyFilter()" data-filter="saturate" data-scale="">
-            
-            <label>Sepia</label>
-            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="sepia" data-scale="%">
-            
-            <label>Invert</label>
-            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="invert" data-scale="%">
-            
-            <label>Contrast</label>
-            <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="contrast" data-scale="%">
-            
-            <label>Brightness</label>
-            <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="brightness" data-scale="%">
-            
-            <label>Blur</label>
-            <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="blur" data-scale="px">
-            
-            <label>Hue Rotate</label>
-            <input type="range" min="0" max="360" value="0" step="1" onchange="applyFilter()" data-filter="hue-rotate" data-scale="deg">
+            <div class="filters">
+                <div class="filter">
+                    <label>Grayscale</label>
+                    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="grayscale" data-scale="%">
+                </div>
+                
+                <div class="filter">
+                    <label>Saturate</label>
+                    <input type="range" min="1" max="100" value="1" step="1" onchange="applyFilter()" data-filter="saturate" data-scale="">
+                </div>
+                
+                <div class="filter">
+                    <label>Sepia</label>
+                    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="sepia" data-scale="%">
+                </div>
+                
+                <div class="filter">
+                    <label>Invert</label>
+                    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="invert" data-scale="%">
+                </div>
+                
+                <div class="filter">
+                    <label>Contrast</label>
+                    <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="contrast" data-scale="%">
+                </div>
+                
+                <div class="filter">
+                    <label>Brightness</label>
+                    <input type="range" min="0" max="200" value="100" step="1" onchange="applyFilter()" data-filter="brightness" data-scale="%">
+                </div>
+                
+                <div class="filter">
+                    <label>Blur</label>
+                    <input type="range" min="0" max="100" value="0" step="1" onchange="applyFilter()" data-filter="blur" data-scale="px">
+                </div>
+                
+                <div class="filter">
+                    <label>Hue Rotate</label>
+                    <input type="range" min="0" max="360" value="0" step="1" onchange="applyFilter()" data-filter="hue-rotate" data-scale="deg">
+                </div>
+            </div>
         </div>
 
     </main>
