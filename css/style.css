@@ -27,15 +27,18 @@ main {
 
 #filters-container {
     margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
 }
 
 #filters-container>div {
     margin: 0 50px 0 50px;
     cursor: pointer;
+    display: inline-block;
 }
 
 .hidden {
     display: none;
+}
+
+.show {
+    display: block;
 }

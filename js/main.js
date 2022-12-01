@@ -17,7 +17,7 @@ function handleImageUpload()
 
     if (FileReader.result != '') {
         document.getElementById("label").classList.add('hidden');
-
+        document.getElementById('filters-container').classList.add('show');
     }
 
 
